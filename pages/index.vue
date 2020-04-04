@@ -1,72 +1,46 @@
-<template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        derekjohnston
-      </h1>
-      <h2 class="subtitle">
-        My groovy Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  .container-fluid
+    .card
+      .card-header
+        | Greetings, My name is Derek and I am a passionate software developer!
+      .card-body
+        .card-title
+          .p Albert Einstein once said 
+            i “It has become appallingly obvious that our technology has exceeded our humanity.” 
+            | Technology is all around us, so I choose to embrace it, there is no hiding from it.
+          br
+          | Currently developing side projects with Nuxt.js / Vue.js / Flutter / Ruby on Rails & PHP.
+          br
+          br
+          | The next subject I am looking to do research with is Docker.
+          br
+          br
+          p
+            b Seeking employment opportunities in Toronto to Durham and surrounding areas.
+          p
+            b With a healthy work/life balance and learning resources.
+          br
+          br
+          a(href="/DerekJohnstonNoCell.pdf") Resume
 </template>
-
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  head() {
+    return {
+      titleTemplate: "%s"
+    };
   }
-}
+};
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style scoped>
+.me {
+  width: 800px;
+  height: 750px;
+  background-image: url("~assets/me.png");
+  border-radius: 50%;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.p {
+  text-indent:  2em;
 }
 </style>
+
