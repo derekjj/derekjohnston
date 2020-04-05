@@ -12,17 +12,17 @@
           //- b-nav-item(to="/about",
           //-           activeClass="active") About
           b-nav-item(tag="button",
-                                          activeClass="active",
-                                          to="/work") Work Exp
+                    activeClass="active",
+                    to="/skills") Skills
           b-nav-item(tag="button",
-                                          activeClass="active",
-                                          to="/about") About
+                    activeClass="active",
+                    to="/work") Work Exp
           b-nav-item(tag="button",
-                                          activeClass="active",
-                                          to="/projects") Projects
+                    activeClass="active",
+                    to="/projects") Projects
           b-nav-item(tag="button",
-                                          activeClass="active",
-                                          to="/contact") Contact
+                    activeClass="active",
+                    to="/contact") Contact
 </template>
 
 <style scoped>
@@ -31,8 +31,8 @@
 }
 .hoverable:hover {
   -webkit-box-shadow: none;
-  box-shadow: 0px 2px 2px 2px #CCCCCC;
-  -webkit-transition: all 0.80s ease-in-out;
-  transition: all 0.80s ease-in-out;
+  box-shadow: 0px 2px 2px 2px #cccccc;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 </style>
