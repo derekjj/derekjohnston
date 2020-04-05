@@ -1,5 +1,5 @@
 <template lang="pug">
-  .container-fluid
+  .container
     Projects
 </template>
 <script>
