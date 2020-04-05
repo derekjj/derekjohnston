@@ -1,32 +1,33 @@
       {
 <template lang="pug">
-.row
-  .col-lg-2
-  .col-lg-8
-    .card
-      .row.m-1
-        .col-lg-12
-          img.rounded-circle(src="~assets/me2.jpg" alt="Derek Johnston")
-        .col-lg-12.pt-5
-          h2 Derek Johnston
-          h6
-            |  Software Developer
-          h6
-            span.fa.fa-mobile(data-toggle="tooltip" title="905.926.8279") 
-            |  1.905.926.8279
-          h6 
-            span.fa.fa-map-marker(data-toggle="tooltip" title="Ontatio, Canada")
-            |  Durham Region, Ontatio, Canada
-          h6
-            a(href="mailto:Derek@DerekJohnston.ca") 
-              span.far.fa-envelope(data-toggle="tooltip" title="Derek@DerekJohnston.ca")
-              |  Derek@DerekJohnston.ca
-            
-  .col-lg-2
-            //- .clearfix
+.container
+  .row
+    .col-lg-2
+    .col-lg-8
+      .card
+        .row.m-1
+          .col-lg-12
+            img.rounded-circle(src="~assets/me2.jpg" alt="Derek Johnston")
+          .col-lg-12.pt-5
+            h2 Derek Johnston
+            h6
+              |  Software Developer
+            //- h6
+            //-   span.fa.fa-mobile(data-toggle="tooltip" title="905.926.8279") 
+            //-   |  1.905.926.8279
+            //- h6 
+            //-   span.fa.fa-map-marker(data-toggle="tooltip" title="Ontatio, Canada")
+            //-   |  Durham Region, Ontatio, Canada
+            h6
+              a(href="mailto:Derek@DerekJohnston.ca") 
+                span.fa.fa-envelope(data-toggle="tooltip" title="Derek@DerekJohnston.ca")
+                |  Derek@DerekJohnston.ca
 </template>
 
-<style>
+<style scoped>
+a {
+  color: black;
+}
 .successful-server-response-wrapper {
   display: flex;
   justify-content: center;
