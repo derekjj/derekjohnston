@@ -14,7 +14,7 @@
           b-nav-item(tag="button",
                     activeClass="active",
                     to="/skills") Skills
-          b-nav-item(tag="button",
+          //- b-nav-item(tag="button",
                     activeClass="active",
                     to="/work") Work Exp
           b-nav-item(tag="button",
