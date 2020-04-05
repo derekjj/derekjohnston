@@ -5,6 +5,8 @@
         i.fa.fa-facebook(aria-hidden="true")
       a.col-sm-3(href="https://github.com/derekjj")
         i.fa.fa-github(aria-hidden="true")
+      a.col-sm-3(href="https://gitlab.com/derekjj")
+        i.fa.fa-gitlab(aria-hidden="true")
       a.col-sm-3(href="https://www.linkedin.com/in/derekjjohnston")
         i.fa.fa-linkedin(aria-hidden="true")
       router-link.col-sm-3(to="/contact")
