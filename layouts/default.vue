@@ -1,7 +1,7 @@
 <template lang="pug">
   div
     app-header
-    nuxt.body.mt-2.mb-2
+    nuxt.body.mt-3.mb-2
     app-footer
 </template>
 
