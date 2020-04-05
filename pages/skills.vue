@@ -1,7 +1,7 @@
 <template lang="pug">
   .container
     .row
-      .col-sm-6.mb-3(v-for="skill in skills")
+      .col-lg-3.mb-3(v-for="skill in skills")
         .card.h-100
           .card-header.text-center
             h4.card-title
@@ -10,12 +10,6 @@
             ul.list-group.list-group-flush
               li.list-group-item(v-for="subSkill in skill.subSkills")
                 | {{subSkill}}
-    .card
-      .card-body
-        | There are additional skills, this is just a small list to show interest in learning.
-        br
-        br
-        | Some additional interests I have are camping, swimming, biking, fishing, and hunting. The elective classes I took are Human Resources I & II, Accounting I, Children’s Literature, and Find Your Fit (Fitness). I like to work locally or remotely but will move for the right job. Current Located in Durham Ontario, Canada.
 </template>
 
 <script>
@@ -47,7 +41,23 @@ export default {
           ]
         },
         {
-          category: "Software",
+          category: "Frameworks",
+          subSkills: [
+            "NuxtJS",
+            "VueJS",
+            "NodeJS",
+            "Laravel",
+            "Ruby on Rails",
+            "Spring",
+            "Flutter"
+          ]
+        },
+        {
+          category: "API Integration",
+          subSkills: ["Google", "Facebook", "Twitter", "Twitch", "WoW"]
+        },
+        {
+          category: "Other",
           subSkills: [
             "Project",
             "Access",
@@ -66,23 +76,9 @@ export default {
             "JIRA",
             "Scout",
             "PostgreSQL",
-            "SQL Server"
+            "SQL Server",
+            "Docker"
           ]
-        },
-        {
-          category: "Frameworks",
-          subSkills: [
-            "NodeJS",
-            "VueJS",
-            "Laravel",
-            "Ruby on Rails",
-            "Spring",
-            "Flutter"
-          ]
-        },
-        {
-          category: "Integration",
-          subSkills: ["Google", "Facebook", "Twitter", "Twitch.tv", "WoW"]
         }
       ]
     };

@@ -1,27 +1,23 @@
 <template lang="pug">
-  .container-fluid
+  .container
     .card
-      .card-header
+      .card-body.m-3
         | Greetings, My name is Derek and I am a passionate software developer!
-      .card-body
-        .card-title
-          .p Albert Einstein once said 
-            i “It has become appallingly obvious that our technology has exceeded our humanity.” 
-            | Technology is all around us, so I choose to embrace it, there is no hiding from it.
+        br
+        br
+        p
+          i “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
           br
-          | Currently developing side projects with Nuxt.js / Vue.js / Flutter / Ruby on Rails & PHP.
-          br
-          br
-          | The next subject I am looking to do research with is Docker.
-          br
-          br
-          p
-            b Seeking employment opportunities in Toronto to Durham and surrounding areas.
-          p
-            b With a healthy work/life balance and learning resources.
-          br
-          br
-          a(href="/DerekJohnstonNoCell.pdf") Resume
+          | ― Martin Fowler
+        br
+        | Currently developing projects with Docker, NuxtJS, VueJS, Flutter(Dart), Ruby on Rails & PHP.
+        br
+        br
+        p
+          b Seeking employment opportunities remotely or Toronto to Durham and surrounding areas.
+        br
+        br
+        a(href="/DerekJohnstonNoCell.pdf") Resume
 </template>
 <script>
 export default {
