@@ -6,43 +6,46 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue';
-import Footer from '~/components/Footer.vue';
+import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
 export default {
   components: {
     appHeader: Header,
     appFooter: Footer
   }
-}
+};
 </script>
 
 <style>
-.carousel-indicators, .carousel-control-prev, .carousel-control-next{
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
   background-color: #222;
   opacity: 0.1;
   transition: opacity 0.15s ease;
 }
 .carousel-indicators {
-  margin-bottom: -0.01em; 
+  margin-bottom: -0.01em;
   opacity: 0.3;
   height: 40px;
 }
 
-h1, h4{
+h1,
+h4 {
   text-shadow: #222 0.1em 0.1em 0.1em;
-  color: #FFF;
+  color: #fff;
 }
 
-h2{
+h2 {
   color: #28a745;
 }
 
 .card-header {
   background-color: #28a745;
-  color: #FFF;
+  color: #fff;
 }
 
-.body {  
+.body {
   padding: 45px 0 0 0;
   margin: 0 auto;
   /* display: flex; */
@@ -58,20 +61,20 @@ h2{
 
 .hoverable:hover {
   -webkit-box-shadow: none;
-  box-shadow: 3px 5px #CCCCCC;
-  -webkit-transition: all 0.80s ease-in-out;
-  transition: all 0.80s ease-in-out;
+  box-shadow: 3px 5px #cccccc;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 .hoverable {
   -webkit-box-shadow: none;
-  box-shadow: 0px 0px 0px 0px #CCCCCC;
-  -webkit-transition: all 0.50s ease-out;
-  transition: all 0.50s ease-out;
+  box-shadow: 0px 0px 0px 0px #cccccc;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -88,13 +91,14 @@ html {
   margin: 0;
 }
 a {
-    text-decoration: none !important;
+  color:black;
+  text-decoration: none !important;
 }
 .dropdown-item.active {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 .dropdown-item.active:active {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 }
 
 .button--green {
