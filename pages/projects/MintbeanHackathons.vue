@@ -14,7 +14,8 @@
             h5 {{hackathon.name}}
           .card-body.h-100
             button.m-2.btn.btn-outline-success(@click="toggleComponent(hackathon.component)" v-if="hackathon.component") View Demo
-            button.m-2.btn.btn-outline-success(:href="hackathon.git") Github
+            a(:href="hackathon.git")
+              button.m-2.btn.btn-outline-success Github
             br
             | Objective:
             br
