@@ -17,6 +17,7 @@
     "nuxt": "^2.0.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
+    "vue-markdown": "^2.2.4",
     "vue-swatches": "^1.0.4"
   },
   "devDependencies": {}
