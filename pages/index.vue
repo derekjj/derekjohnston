@@ -1,16 +1,14 @@
 <template lang="pug">
   .container
     .card
+      b-img.card-image-top(:src="this.image" fluid @mouseover="image2" @mouseleave="image1")
       .card-body.m-3
-        | Greetings, My name is Derek and I am a passionate software developer!
-        br
-        br
         p
           i “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
           br
           | ― Martin Fowler
         br
-        | Currently developing projects with Docker, NuxtJS, VueJS, Flutter(Dart), Ruby on Rails & PHP.
+        | Currently developing projects with Docker, NuxtJS, VueJS, ReactJS, NodeJS, Flutter(Dart), Ruby on Rails & PHP.
         br
         br
         p
@@ -18,13 +16,32 @@
         br
         br
         a(href="/DerekJohnstonNoCell.pdf") Resume
+    Projects
+    Contact
 </template>
 <script>
+//TODO: Take better personal pictures
+//TODO: Direct to resume builder, and add print to pdf option
+import Projects from '~/components/Projects'
+import Contact from '~/components/Contact'
 export default {
-  head() {
+  components: {
+    Projects,
+    Contact
+  },
+  data() {
     return {
-      titleTemplate: "%s"
+      images: ['me1.png', 'me2.png'],
+      image: 'me1.png',
     };
+  },
+  methods: {
+    image1() {
+      this.image = this.images[0];
+    },
+    image2() {
+      this.image = this.images[1];
+    }
   }
 };
 </script>
@@ -36,7 +53,7 @@ export default {
   border-radius: 50%;
 }
 .p {
-  text-indent:  2em;
+  text-indent: 2em;
 }
 </style>
 

@@ -1,34 +1,38 @@
 <template lang="pug">
   .container
-    .row
-      .col-12
-        H2 Various projects from Mintbean - Hackathons
-    .row
-      .col-12
-        p Roles: Hackathon Lead & Participant
-        p Focusing on group success over personal
-        p Coding sessions are ~135mins
-    .row
-      .col-4.pb-2(v-for="(hackathon, index) in hackathons")
-        .card.h-100
-          .card-header
-            h5 {{hackathon.name}}
-          .card-body.h-100
-            nuxt-link(:to="'MintbeanHackathons/'+ hackathon.component" v-if="hackathon.component")
-              button.m-2.btn.btn-outline-success View Demo
-            a(:href="hackathon.git")
-              button.m-2.btn.btn-outline-success Github
-            br
-            | Objective:
-            br
-            | {{hackathon.objective}}
-          .card-footer.pt-1.mt-1
-            | {{hackathon.date}}
+    .card.my-2
+      .card-header.bg-success
+        H1 Various projects from Mintbean - Hackathons
+      .card-body
+        .row
+          .col-12
+            p Roles: Hackathon Lead & Participant
+            p Focusing on group success over personal
+            p Coding sessions are ~135mins
+        .row
+          .col-4.pb-2(v-for="(hackathon, index) in hackathons")
+            .card.h-100
+              .card-header
+                h5 {{hackathon.name}}
+              .card-body.h-100
+                nuxt-link(:to="'MintbeanHackathons/'+ hackathon.component" v-if="hackathon.component")
+                  button.m-2.btn.btn-outline-success View Demo
+                a(:href="hackathon.git")
+                  button.m-2.btn.btn-outline-success Github
+                br
+                | Objective:
+                br
+                | {{hackathon.objective}}
+              .card-footer.pt-1.mt-1
+                | {{hackathon.date}}
 </template>
-<script>export default {
+<script>
+//TODO: Remove demos, host only with demo link from hackathons or iframe
+//TODO: Update projects completed
+export default {
   data() {
     return {
-      dynamicComponent: 'LiveCSSEditor',
+      dynamicComponent: "LiveCSSEditor",
       hackathons: [
         {
           name: "Markdown-Editor",
@@ -39,7 +43,8 @@
         },
         {
           name: "Roll-Your-Own-Chrome-Dashboard",
-          git: "https://github.com/derekjj/2020-04-08-Roll-your-own-Chrome-dashboard",
+          git:
+            "https://github.com/derekjj/2020-04-08-Roll-your-own-Chrome-dashboard",
           date: "2020-04-08",
           objective: "create your own dashboard for Chrome."
         },
