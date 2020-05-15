@@ -3,18 +3,20 @@
     .social-footer-icons        
       //- a.col-sm-3(href="https://www.facebook.com/DJDesign.ca")
         i.fa.fa-facebook(aria-hidden="true")
-      a.col-sm-3(href="https://github.com/derekjj")
+      a.text-white.col-sm-3(href="https://github.com/derekjj")
         i.fa.fa-github(aria-hidden="true")
-      a.col-sm-3(href="https://gitlab.com/derekjj")
+      a.text-white.col-sm-3(href="https://gitlab.com/derekjj")
         i.fa.fa-gitlab(aria-hidden="true")
-      a.col-sm-3(href="https://www.linkedin.com/in/derekjjohnston")
+      a.text-white.col-sm-3(href="https://www.linkedin.com/in/derekjjohnston")
         i.fa.fa-linkedin(aria-hidden="true")
-      router-link.col-sm-3(to="/contact")
+      router-link.text-white.col-sm-3(to="/contact")
         i.fa.fa-address-card-o(aria-hidden="true")
       
 </template>
-
 <style scoped>
+a.text-white{
+  text-shadow: #222 0.1em 0.1em 0.1em;
+}
 .social-footer {
   padding: 1rem;
   background-color: #28a745;
