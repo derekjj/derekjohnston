@@ -2,13 +2,14 @@
   .container
     .card.my-2
       .card-header.bg-success
-        H1 Various projects from Mintbean - Hackathons
+        H1 Mintbean Hackathons
+        H1 Projects
       .card-body
         .row
           .col-12
             p Roles: Hackathon Lead & Participant
             p Focusing on group success over personal
-            p Coding sessions are ~135mins
+            p Coding sessions are ~135mins to ~230mins
         .row
           .col-4.pb-2(v-for="(hackathon, index) in hackathons")
             .card.h-100
