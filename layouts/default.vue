@@ -1,18 +1,21 @@
 <template lang="pug">
   div
-    app-header
+    Header
     nuxt.body.mt-3.mb-2
-    app-footer
+    side-nav
+    Footer
 </template>
 
 <script>
 import Header from "~/components/Header.vue";
 import Footer from "~/components/Footer.vue";
+import SideNav from "~/components/SideNav.vue";
 export default {
   components: {
-    appHeader: Header,
-    appFooter: Footer
-  }
+    Header,
+    Footer,
+    SideNav
+  },
 };
 </script>
 
@@ -91,7 +94,7 @@ html {
   margin: 0;
 }
 a {
-  color:black;
+  color: black;
   text-decoration: none !important;
 }
 .dropdown-item.active {
