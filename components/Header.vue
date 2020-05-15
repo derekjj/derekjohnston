@@ -1,28 +1,23 @@
 <template lang="pug">
-  div
-    b-navbar(toggleable="sm" type="dark" variant="success" fixed="top")
-      
-      b-navbar-brand.d-none.d-sm-block(to="/") Derek Johnston
-      b-navbar-brand.d-sm-none(to="/") Derek Johnston
-
-      b-navbar-toggle(target="nav-collapse")
-
-      b-collapse(id="nav-collapse" is-nav)
-        b-navbar-nav.ml-auto
-          //- b-nav-item(to="/about",
-          //-           activeClass="active") About
-          b-nav-item(tag="button",
-                    activeClass="active",
-                    to="/skills") Skills
-          //- b-nav-item(tag="button",
-                    activeClass="active",
-                    to="/work") Work Exp
-          b-nav-item(tag="button",
-                    activeClass="active",
-                    to="/projects") Projects
-          b-nav-item(tag="button",
-                    activeClass="active",
-                    to="/contact") Contact
+  b-navbar.bg-success(toggleable="sm" type="dark" fixed="top")
+    b-button.d-none.d-sm-block.mr-2(v-b-toggle.sidebar-variant variant="success")
+      .navbar-toggler-icon
+    b-navbar-toggle.d-sm-none(target="nav-collapse")
+    b-collapse(id="nav-collapse" is-nav)
+      b-navbar-nav.ml-auto.d-sm-none
+        b-nav-item(tag="b-button",
+                  activeClass="active",
+                  to="/"
+                  exact) Home
+        b-nav-item(tag="b-button",
+                  activeClass="active",
+                  to="/skills") Skills
+        b-nav-item(tag="b-button",
+                  activeClass="active",
+                  to="/projects") Projects
+        b-nav-item(tag="b-button",
+                  activeClass="active",
+                  to="/contact") Contact
 </template>
 
 <style scoped>
