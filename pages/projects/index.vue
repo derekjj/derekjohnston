@@ -1,10 +1,6 @@
 <template lang="pug">
   .container
-    .card.my-2
-      .card-header.bg-success
-        H1 Projects
-      .card-body
-        Projects
+    Projects
 </template>
 <script>
 import Projects from '~/components/Projects'
