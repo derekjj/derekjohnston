@@ -4,7 +4,7 @@
       H1 Projects
     .card-body
       .row
-        .col-md-4.my-3(v-for="project in projects")
+        .col-sm-6.col-lg-4.my-3(v-for="project in projects")
           .card.h-100
             .card-header.m-1.h-100
               router-link(:to="project.address", v-if="project.local && project.address.length > 0")
@@ -34,6 +34,20 @@ export default {
           image: "https://avatars2.githubusercontent.com/u/41805626?s=200&v=4",
           about:
             "Examples of Hackathon projects."
+        },
+        {
+          name: "E-Data Now!",
+          address: "edatanow.com",
+          image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGKWsYf3h1Brg/company-logo_200_200/0?e=1597881600&v=beta&t=xCDbYKHX1utCfufYIgnG1Cd3EaSAXBXZrsxnM9Wn1ac",
+          about:
+            "Examples of Hackathon projects."
+        },
+        {
+          name: "Oiika",
+          address: "https://Oiika.com",
+          image: "https://media-exp1.licdn.com/dms/image/C560BAQE4SjQ4e5b-sg/company-logo_200_200/0?e=1597881600&v=beta&t=i3hWuPgeSdgVqgUBJ9rPgA9Um6ItpRyLqrq5lJAP90Q",
+          about:
+            "Connecting tutors and tutees!"
         },
         {
           name: "Who's Jimmy",
