@@ -1,8 +1,16 @@
 <template lang="pug">
   div
-    Header
-    nuxt.body.mt-3.mb-2
-    side-nav
+    .d-md-none
+      Header
+      nuxt.body.mt-5.mb-2.pt-3
+    .d-none.d-md-block
+      .row
+        .col-md-4.col-lg-3.bg-success
+          side-nav
+        .col-md-8.col-lg-9.pr-4
+          nuxt.body.mt-3.mb-2
+    b-sidebar#sidebar-variant(title="" bg-variant="success" text-variant="light" shadow)
+      side-nav
     Footer
 </template>
 
@@ -49,7 +57,6 @@ h2 {
 }
 
 .body {
-  padding: 45px 0 0 0;
   margin: 0 auto;
   /* display: flex; */
   justify-content: center;
