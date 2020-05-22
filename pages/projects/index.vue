@@ -1,6 +1,5 @@
 <template lang="pug">
-  .container
-    Projects
+  Projects
 </template>
 <script>
 import Projects from '~/components/Projects'

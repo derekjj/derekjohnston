@@ -5,7 +5,8 @@
     .card-body
       .row.m-1
         .col-lg-12
-          img.rounded-circle(src="~assets/me2.jpg" alt="Derek Johnston")
+          b-img(:src="this.image" fluid @mouseover="image2" @mouseleave="image1")
+          //- img.rounded-circle(src="~assets/me2.jpg" alt="Derek Johnston")
         .col-lg-12.pt-5
           h2 Derek Johnston
           h6
@@ -33,7 +34,23 @@
           </form>
 </template>
 <script>
-//TODO: add from validation 
+//TODO: add from validation
+export default {
+  data() {
+    return {
+      images: ["me1.png", "me2.png"],
+      image: "me1.png"
+    };
+  },
+  methods: {
+    image1() {
+      this.image = this.images[0];
+    },
+    image2() {
+      this.image = this.images[1];
+    }
+  }
+};
 </script>
 <style scoped>
 a {

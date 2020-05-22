@@ -1,22 +1,23 @@
 <template lang="pug">
+.container
   .card.my-2
     .card-header.bg-success
       H1 Projects
     .card-body
       .row
-        .col-sm-6.col-lg-4.my-3(v-for="project in projects")
+        .col-sm-6.col-md-6.col-lg-4.my-1(v-for="project in projects")
           .card.h-100
-            .card-header.m-1.h-100
+            .card-header.h-100.m-1
               router-link(:to="project.address", v-if="project.local && project.address.length > 0")
                 img.card-img-top(:src="project.image")
               a(:href="project.address", v-if="!project.local && project.address.length > 0")
                 img.card-img-top(:src="project.image")
               div(v-if="project.address.length <= 0")
                 img.card-img-top(:src="project.image")
-            .card-body.mb-3
+            .card-body.pt-0
               h5.text-center
-                a.btn.btn-light.btn-lg.btn-block(:href="project.address", v-if="project.address.length > 0") {{project.name}}
-                div.btn.btn-light.btn-lg.btn-block(:href="project.address", v-else) {{project.name}}
+                a.btn.btn-light.btn.btn-block(:href="project.address", v-if="project.address.length > 0") {{project.name}}
+                div.btn.btn-light.btn.btn-block(:href="project.address", v-else) {{project.name}}
                 div(v-if="project.quote") 
                   | "{{project.quote}}"
             .card-footer
@@ -37,10 +38,11 @@ export default {
         },
         {
           name: "E-Data Now!",
-          address: "edatanow.com",
+          address: "./projects/EDataNow",
+          local: true,
           image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGKWsYf3h1Brg/company-logo_200_200/0?e=1597881600&v=beta&t=xCDbYKHX1utCfufYIgnG1Cd3EaSAXBXZrsxnM9Wn1ac",
           about:
-            "Examples of Hackathon projects."
+            "At this Audit and Inspection company, working on a large administrative website and 2 supporting monbile apps."
         },
         {
           name: "Oiika",

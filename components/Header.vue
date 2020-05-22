@@ -2,7 +2,7 @@
   b-navbar.bg-success(toggleable="sm" type="dark" fixed="top")
     b-button.d-none.d-sm-block.mr-2(v-b-toggle.sidebar-variant variant="success")
       .navbar-toggler-icon
-      
+
     b-navbar-toggle.d-sm-none(target="nav-collapse")
     b-collapse(id="nav-collapse" is-nav)
       b-navbar-nav.ml-auto.d-sm-none
@@ -12,7 +12,7 @@
                   exact) Home
         b-nav-item(tag="b-button",
                   activeClass="active",
-                  to="/skills") Skills
+                  to="/knowledge") Knowledge
         b-nav-item(tag="b-button",
                   activeClass="active",
                   to="/projects") Projects

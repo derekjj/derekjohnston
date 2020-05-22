@@ -4,11 +4,12 @@
       Header
       nuxt.body.mt-5.mb-2.pt-3
     .d-none.d-md-block
-      .row
+      .row.mx-0
         .col-md-4.col-lg-3.bg-success
+        .col-md-4.col-lg-3.bg-success.position-fixed
           side-nav
         .col-md-8.col-lg-9.pr-4
-          nuxt.body.mt-3.mb-2
+          nuxt.body.mb-2
     b-sidebar#sidebar-variant(title="" bg-variant="success" text-variant="light" shadow)
       side-nav
     Footer

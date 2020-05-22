@@ -11,7 +11,7 @@
         .list-group
           b-button.m-1(variant="success"
                       activeClass="active",
-                      to="/skills") Skills
+                      to="/knowledge") Knowledge
 
           b-button.m-1(variant="success"
                       activeClass="active",

@@ -1,7 +1,7 @@
 <template lang="pug">
   .container
     .card
-      b-img.card-image-top(:src="this.image" fluid @mouseover="image2" @mouseleave="image1")
+      b-img.card-image-top(:src="require('!!url-loader?limit=0!~/assets/tech-bg.jpg')" fluid)
       .card-body.m-3
         p
           i “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
@@ -17,32 +17,20 @@
         br
         a(href="/DerekJohnstonNoCell.pdf") Resume
     Projects
+    Knowledge
     Contact
 </template>
 <script>
-//TODO: Take better personal pictures
 //TODO: Direct to resume builder, and add print to pdf option
 import Projects from '~/components/Projects'
+import Knowledge from '~/components/Knowledge'
 import Contact from '~/components/Contact'
 export default {
   components: {
     Projects,
+    Knowledge,
     Contact
   },
-  data() {
-    return {
-      images: ['me1.png', 'me2.png'],
-      image: 'me1.png',
-    };
-  },
-  methods: {
-    image1() {
-      this.image = this.images[0];
-    },
-    image2() {
-      this.image = this.images[1];
-    }
-  }
 };
 </script>
 <style scoped>
