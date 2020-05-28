@@ -5,9 +5,6 @@
     .card-body
       .row.m-1
         .col-lg-12
-          b-img(:src="this.image" fluid @mouseover="image2" @mouseleave="image1")
-          //- img.rounded-circle(src="~assets/me2.jpg" alt="Derek Johnston")
-        .col-lg-12.pt-5
           h2 Derek Johnston
           h6
             |  Software Developer
@@ -15,6 +12,8 @@
             a(href="mailto:Derek@DerekJohnston.ca") 
               span.fa.fa-envelope(data-toggle="tooltip" title="Derek@DerekJohnston.ca")
               |  Derek@DerekJohnston.ca
+      .row.m-2
+        .col-lg-12.pt-2
           <form action="https://formspree.io/derek@derekjohnston.ca" method="post">
             <div class="form-group">
                 <input type="text" id="name" name="name" class="form-control" placeholder="Name">
