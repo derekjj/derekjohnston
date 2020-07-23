@@ -1,5 +1,4 @@
 <template lang="pug">
-.container
   .card.my-2
     .card-header.bg-success
       H1 Projects
@@ -30,7 +29,7 @@ export default {
       projects: [
         {
           name: "Mintbean Hackathons",
-          address: "./projects/MintbeanHackathons",
+          address: "./projects/mintbean",
           local: true,
           image: "https://avatars2.githubusercontent.com/u/41805626?s=200&v=4",
           about:
