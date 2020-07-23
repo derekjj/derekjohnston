@@ -1,4 +1,5 @@
 <template lang="pug">
+.container
   Projects
 </template>
 <script>
