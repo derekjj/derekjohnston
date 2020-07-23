@@ -5,7 +5,7 @@ div
         H1 Projects
     .row
       .col-sm-6.col-lg-4.my-3(v-for="project in projects")
-        .card.h-100
+        .card
           .card-header.m-1
             router-link(:to="project.address", v-if="project.local && project.address.length > 0")
               img.card-img-top(:src="project.image")
@@ -19,7 +19,7 @@ div
               div.btn.btn-light.btn-lg.btn-block(:href="project.address", v-else) {{project.name}}
               div(v-if="project.quote") 
                 | "{{project.quote}}"
-          .card-footer.h-100
+          .card-footer
             p.card-text {{project.about}}
 </template>
 <script>
@@ -39,14 +39,14 @@ export default {
           address: "https://apps.apple.com/ca/app/edatanow/id633948920",
           image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGKWsYf3h1Brg/company-logo_200_200/0?e=1597881600&v=beta&t=xCDbYKHX1utCfufYIgnG1Cd3EaSAXBXZrsxnM9Wn1ac",
           about:
-            "Evolve your audits and inspections with next generation technology. E-Data Now! allows your team to collect and report manufacturing and field data instantly, with notifications designed to reduce duplication and close the loop on corrective actions. Mitigating risk, and going beyond just pushing paper."
+            "Mobile app in Swift for iOS devices."
         },
         {
           name: "Timesheets App",
           address: "https://apps.apple.com/ca/app/edn-time/id1471165421",
           image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGKWsYf3h1Brg/company-logo_200_200/0?e=1597881600&v=beta&t=xCDbYKHX1utCfufYIgnG1Cd3EaSAXBXZrsxnM9Wn1ac",
           about:
-            "Helpful companion app to keep track of signing in and out of a job."
+            "Mobile app in Flutter for all mobile devices."
         },
       ]
     };
