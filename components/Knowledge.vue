@@ -1,93 +1,64 @@
 <template lang="pug">
-  .container
-    .row
-      .card
-        .card-header
+transition(name="fade")  
+  .card(v-if="isShowing")
+    .card-header
+      .row
+        .col-2
+        .col-8
           h4 Knowledge
-        .card-body
-          .row.mb-2
-            .col-12.pb-3(v-for="skill in skills")
-              .row
-                .col.text-left
-                  h5.card-title
-                    | {{skill.category}}
-              .row
-                .col-lg-3.col-md-4.col-sm-4(v-for="subSkill in skill.subSkills")
-                  | {{subSkill}}
+        .col-2.text-right.text-white
+          b-button.m-1(variant="success" v-b-toggle.collapse-primary)
+            span.when-opened
+              i.fa.fa-chevron-down(aria-hidden="true")
+            span.when-closed
+              i.fa.fa-chevron-up(aria-hidden="chevron-right")
+    .card-body
+      b-collapse#collapse-primary(visible)
+        .row
+          .col-12.pb-3(v-for="skill in skills")
+            .row
+              .col.text-left
+                h5.card-title
+                  | {{skill.category}}
+            .row
+              .col-lg-3.col-md-4.col-sm-4(v-for="subSkill in skill.subSkills")
+                | {{subSkill}}
+    .row
+      .col-12.p-0
+        Secondary
 </template>
 
 <script>
+import Secondary from "~/components/Knowledge/Secondary";
 export default {
+  components: {
+    Secondary
+  },
   data() {
     return {
+      isShowing: false,
       skills: [
         {
-          category: "Languages",
-          subSkills: [
-            "HTML5",
-            "ASP",
-            "C++",
-            "C#",
-            "COBOL",
-            "Html",
-            "Java",
-            "PHP",
-            "Visual Basic",
-            "Python",
-            "PowerShell",
-            "Java Script",
-            "ReactJS",
-            "NodeJS"
-          ]
+          category: "JavaScript",
+          subSkills: ["JavaScript", "ReactJS", "NodeJS", "NuxtJS/VueJS"]
         },
         {
           category: "Databases",
-          subSkills: ["SQLite", "Mongo", "SQLServer", "MySQLi", "PostgreSQL"]
-        },
-        {
-          category: "Testing",
-          subSkills: ["Pester", "Gatling", "Cypress", "Scout", "Sentry"]
+          subSkills: ["SQLite", "MongoDB", "SQLServer", "MySQLi", "PostgreSQL"]
         },
         {
           category: "Frameworks",
-          subSkills: [
-            "NuxtJS",
-            "VueJS",
-            "Laravel",
-            "Ruby on Rails",
-            "Spring",
-            "Flutter"
-          ]
+          subSkills: ["NuxtJS/VueJS", "Ruby on Rails", "Flutter"]
         },
         {
           category: "API Integration",
-          subSkills: ["Google", "Facebook", "Twitter", "Twitch", "WoW"]
-        },
-        {
-          category: "OS",
-          subSkills: ["Dos", "Unix", "Mac", "Windows", "Ubuntu"]
-        },
-        {
-          category: "Windows 365",
           subSkills: [
-            "Project",
-            "Access",
-            "Word",
-            "Excel",
-            "FrontPage",
-            "PowerPoint",
-            "VISIO"
-          ]
-        },
-        {
-          category: "Other",
-          subSkills: [
-            "Dreamweaver",
-            "PHPmyAdmin",
-            "AndrioStudio",
-            "Xamarin",
-            "JIRA",
-            "Docker"
+            "Google",
+            "Facebook",
+            "Twitter",
+            "Twitch",
+            "WoW",
+            "Github"
           ]
         }
       ]
@@ -97,11 +68,19 @@ export default {
     return {
       titleTemplate: "Contact: %s"
     };
+  },
+  mounted() {
+    this.isShowing = true;
   }
 };
 </script>
 
 <style scoped>
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+  display: none;
+}
+
 .card {
   margin-top: 10px;
 }
@@ -110,5 +89,3 @@ export default {
   text-indent: 2em;
 }
 </style>
-
-
