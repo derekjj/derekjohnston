@@ -1,5 +1,5 @@
 <template lang="pug">
-  .card
+  .card.my-2
     .card-header
       H1 Contact
     .card-body
