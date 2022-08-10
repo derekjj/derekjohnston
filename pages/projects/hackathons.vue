@@ -2,7 +2,7 @@
 .container-flex.mt-5
   .row.bg-success
     .col-12
-      H1 Mintbean Hackathon's 
+      H1 Hackathon's 
   .row
     .col-12
       sub * code time: ~2hrs to ~4hrs *

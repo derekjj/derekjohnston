@@ -1,10 +1,15 @@
 <template lang="pug">
-  div
-    Header
-    nuxt.body.mb-2
-    b-sidebar#sidebar-variant(title="" bg-variant="success" text-variant="light" shadow)
-      side-nav
-    Footer
+div
+  Header
+  nuxt.body.mb-2
+  b-sidebar#sidebar-variant(
+    title="",
+    bg-variant="success",
+    text-variant="light",
+    shadow
+  )
+    side-nav
+  Footer
 </template>
 
 <script>
@@ -15,7 +20,7 @@ export default {
   components: {
     Header,
     Footer,
-    SideNav
+    SideNav,
   },
 };
 </script>
@@ -131,5 +136,11 @@ a {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
 }
 </style>

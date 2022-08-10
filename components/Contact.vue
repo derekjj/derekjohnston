@@ -1,6 +1,6 @@
 <template lang="pug">
   .card.my-2
-    .card-header
+    .card-header.bg-success
       H1 Contact
     .card-body
       .row.m-1

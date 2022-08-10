@@ -1,7 +1,7 @@
 <template lang="pug">
   .container
     .card
-      .card-header
+      .card-header.bg-success
         .row
           .col-2
           .col-8

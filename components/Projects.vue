@@ -5,20 +5,27 @@
     .card-body
       .row
         .col-sm-6.col-md-6.col-lg-4.my-1(v-for="project in projects")
-          .card.h-100
-            .card-header.h-100.m-1
-              router-link(:to="project.address", v-if="project.local && project.address.length > 0")
-                img.card-img-top(:src="project.image")
-              a(:href="project.address", v-if="!project.local && project.address.length > 0")
-                img.card-img-top(:src="project.image")
-              div(v-if="project.address.length <= 0")
-                img.card-img-top(:src="project.image")
+          .card
+            //- .card-header.h-100.m-1
+            //-   router-link(:to="project.address", v-if="project.local && project.address.length > 0")
+            //-     img.card-img-top(:src="project.image")
+            //-   a(:href="project.address", v-if="!project.local && project.address.length > 0")
+            //-     img.card-img-top(:src="project.image")
+            //-   div(v-if="project.address.length <= 0")
+            //-     img.card-img-top(:src="project.image")
             .card-body.pt-0
-              h5.text-center
-                a.btn.btn-light.btn.btn-block(:href="project.address", v-if="project.address.length > 0") {{project.name}}
-                div.btn.btn-light.btn.btn-block(:href="project.address", v-else) {{project.name}}
-                div(v-if="project.quote") 
-                  | "{{project.quote}}"
+              router-link(:to="project.address", v-if="project.local && project.address.length > 0")
+                h5.text-center
+                  a.btn.btn-light.btn.btn-block(:href="project.address", v-if="project.address.length > 0") {{project.name}}
+                  div.btn.btn-light.btn.btn-block(:href="project.address", v-else) {{project.name}}
+                  div(v-if="project.quote") 
+                    | "{{project.quote}}"
+              a(:href="project.address", v-if="!project.local && project.address.length > 0")
+                h5.text-center
+                  a.btn.btn-light.btn.btn-block(:href="project.address", v-if="project.address.length > 0") {{project.name}}
+                  div.btn.btn-light.btn.btn-block(:href="project.address", v-else) {{project.name}}
+                  div(v-if="project.quote") 
+                    | "{{project.quote}}"
             .card-footer
               p.card-text {{project.about}}
 </template>
@@ -28,8 +35,16 @@ export default {
     return {
       projects: [
         {
-          name: "Mintbean Hackathons",
-          address: "./projects/mintbean",
+          name: "YHP",
+          address: "https://youville-haussmannpark.com/",
+          // local: true,
+          // image: "https://avatars2.githubusercontent.com/u/41805626?s=200&v=4",
+          about:
+            "Lead Full Stack Developer"
+        },
+        {
+          name: "Hackathons",
+          address: "./projects/hackathons",
           local: true,
           image: "https://avatars2.githubusercontent.com/u/41805626?s=200&v=4",
           about:

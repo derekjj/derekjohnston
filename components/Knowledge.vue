@@ -1,7 +1,7 @@
 <template lang="pug">
 transition(name="fade")  
   .card(v-if="isShowing")
-    .card-header
+    .card-header.bg-success
       .row
         .col-2
         .col-8

@@ -11,11 +11,6 @@
         | Currently developing projects with Docker, NuxtJS, VueJS, ReactJS, NodeJS, Flutter(Dart), Ruby on Rails & PHP.
         br
         br
-        p
-          b Seeking employment opportunities remotely or Toronto to Durham and surrounding areas.
-        br
-        br
-        a(href="/DerekJohnstonNoCell.pdf") Resume
 </template>
 <script>
 export default {

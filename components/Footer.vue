@@ -1,25 +1,27 @@
 <template lang="pug">
-  footer.d-flex.justify-content-around.social-footer
-    .social-footer-icons        
-      //- a.col-sm-3(href="https://www.facebook.com/DJDesign.ca")
-        i.fa.fa-facebook(aria-hidden="true")
-      a.text-white.col-sm-3(href="https://github.com/derekjj")
+footer.d-flex.justify-content-around.social-footer.bg-success
+  b-row.social-footer-icons 
+    //- a.col-sm-3(href="https://www.facebook.com/DJDesign.ca")
+      i.fa.fa-facebook(aria-hidden="true")
+    b-col
+      a.text-white(href="https://github.com/derekjj")
         i.fa.fa-github(aria-hidden="true")
-      a.text-white.col-sm-3(href="https://gitlab.com/derekjj")
+    b-col
+      a.text-white(href="https://gitlab.com/derekjj")
         i.fa.fa-gitlab(aria-hidden="true")
-      a.text-white.col-sm-3(href="https://www.linkedin.com/in/derekjjohnston")
+    b-col
+      a.text-white(href="https://www.linkedin.com/in/derekjjohnston")
         i.fa.fa-linkedin(aria-hidden="true")
-      router-link.text-white.col-sm-3(to="/contact")
+    b-col
+      router-link.text-white(to="/contact")
         i.fa.fa-address-card-o(aria-hidden="true")
-      
 </template>
 <style scoped>
-a.text-white{
+a.text-white {
   text-shadow: #222 0.1em 0.1em 0.1em;
 }
 .social-footer {
   padding: 1rem;
-  background-color: #28a745;
 }
 
 .social-footer .social-footer-icons .fa {
