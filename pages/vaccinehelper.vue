@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="mt-5">
+  <b-container fluid>
     <b-row class="text-center bg-success">
       <h1>Vaccine Time Slot Helper</h1>
     </b-row>
@@ -150,7 +150,7 @@ export default {
   },
   created() {
     //allowing for delay for othersites redirect
-    setTimeout(() => this.loadData(), 5000);
+    // setTimeout(() => this.loadData(), 5000); //Disabled as its no longer a thing
   },
   methods: {
     monthCheck(slotMonth) {

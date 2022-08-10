@@ -1,5 +1,5 @@
 <template lang="pug">
-.container-flex.mt-5
+.container-flex
   .row.bg-success
     .col-12
       H1 Hackathon's 

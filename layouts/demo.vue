@@ -1,7 +1,7 @@
 <template lang="pug">
 div
   Header
-  nuxt.body.mb-2
+  nuxt.body.mb-2.mt-5
   b-sidebar#sidebar-variant(
     title="",
     bg-variant="success",
