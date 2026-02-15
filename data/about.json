@@ -1,0 +1,380 @@
+{
+	"about": {
+		"intro": "Hello, I am",
+		"firstName": "Derek",
+		"lastName": "Johnston",
+		"email": "Derek@Derekjohnston.ca",
+		"cell": "+1 (905) 926-8279",
+		"location": "Durham Region, Ontario, Canada",
+		"openTo": "Remote or local work",
+		"title": "Lead Fullstack Developer (Generalist)",
+		"WhoAmI": "A Fullstack / Mobile Developer Located In Our Lovely Earth",
+		"lookingFor": "Remote or local work",
+		"description": "With a background spanning software development roles at Oiika and E-Data Now!, along with project leadership at YHP, I've gained diverse experience in frontend and backend development. Additionally, my freelance consulting work has provided expertise in web and mobile development. This varied experience has equipped me with a versatile skill set and a deep understanding of software development across different domains."
+	},
+	"eds": [
+		{
+			"school": "Durham College",
+			"title": "Computer Programmer Analyst",
+			"dates": "2018",
+			"skills": [
+				"PHP",
+				"ASP",
+				"ASP.NET",
+				"Java",
+				"COBOL",
+				"SQL",
+				"MySQL",
+				"C#",
+				"C++",
+				"Xamarin",
+				"Xcode",
+				"XAML",
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"TypeScript",
+				"Python",
+				"React.js",
+				"Vue.js",
+				"Node.js",
+				"Git",
+				"GitHub",
+				"GitLab",
+				"Visual Studio Code",
+				"Visual Studio",
+				"Android",
+				"iOS",
+				"Visual Basic",
+				"QBasic",
+				"Ubuntu",
+				"Dreamweaver",
+				"phpMyAdmin",
+				"Android Studio",
+				"MS Visio",
+				"MS PowerPoint",
+				"MS FrontPage",
+				"MS Project",
+				"MS Access",
+				"MS Excel",
+				"MS Word"
+			],
+			"description": "I hold a three-year advanced diploma in Computer Programmer Analyst, with my final project focusing on leading a partnership to develop a mobile communication application for verbally limited individuals. This project utilized Xamarin for its cross-platform compatibility. Throughout the program, I gained proficiency in various technologies including PHP, ASP, Java, COBOL, SQL, MySQL, C#, C++, Visual Basic, QBasic, VISIO, Ubuntu, MS PowerPoint, Dreamweaver, MS FrontPage, phpMyAdmin, MS Project, MS Access, Android Studio, MS Excel, Visual Studio, and MS Word."
+		}
+	],
+	"exps": [
+		{
+			"startDate": "Sun Oct 01 2023",
+			"endDate": "",
+			"icon": "fa-solid fa-laptop",
+			"employer": "JSD",
+			"title": "Freelance",
+			"url": "https://JohnstonSoftwareDevelopment.com",
+			"description": "I have been working on multiple high-impact projects, including revising and upgrading the tech stack for the 'Who's Jimmy' project, enhancing its functionality, and planning a new section for teaching videos to showcase James Gawley's expertise in the film industry. I collaborated with a team to improve the frontend UI/UX of a web application using ReactJS and Tailwind CSS, which resulted in improved user engagement metrics. I developed a mobile-first web app prototype with NextJS within a tight deadline, optimized responsive web designs using Bootstrap and CSS Grid, and upgraded a client's web app from Nuxt 2 to Nuxt 3, leveraging Vue 3 Composition API and TypeScript for enhanced SSR performance. Additionally, I developed tailored e-commerce platforms, mobile applications, and custom software solutions that effectively enhanced clients' online presence and operational efficiency.",
+			"roles": ["Frontend Developer", "Mobile Developer"],
+			"skills": [
+				"TypeScript",
+				"Express.js",
+				"Flutter",
+				"iOS",
+				"React.js",
+				"PHP",
+				"Next.js",
+				"Docker Products",
+				"SASS",
+				"Redux.js",
+				"Vue.js",
+				"Node.js",
+				"Android",
+				"Nuxt.js",
+				"JavaScript",
+				"Amazon Web Services (AWS)",
+				"Git",
+				"Java",
+				"Python",
+				"SQL"
+			],
+			"points": [
+				"Who's Jimmy Project: Revising and upgrading the tech stack for the 'Who's Jimmy' project, enhancing its functionality and performance. Planning to add a new section featuring teaching videos that showcase James Gawley's extensive experience in the film industry, highlighting his expertise and craftsmanship.",
+				"Frontend UI/UX Enhancement Project: Collaborated with team to enhance frontend UI/UX of an existing web application using ReactJS and Tailwind CSS, resulting in improved user engagement metrics.",
+				"Mobile-First Web App Prototype Development: Built a mobile-first web application prototype using NextJS, showcasing key features and functionalities within a tight deadline.",
+				"Responsive Web Design Optimization Sprint: Optimized responsive design of client's website using Bootstrap and CSS Grid, ensuring consistent user experience across desktop and mobile devices.",
+				"Nuxt 2 to Nuxt 3 Upgrade Project: Upgraded client's web app from Nuxt 2 to Nuxt 3, leveraging Vue 3 Composition API, optimizing SSR performance, and integrating TypeScript.",
+				"Additional Projects: Developed tailored e-commerce platforms, mobile applications, and customized software solutions, effectively enhancing clients' online footprint and operational efficiencies."
+			]
+		},
+		{
+			"startDate": "Sat May 01 2021",
+			"endDate": "Sun Sept 01 2023",
+			"icon": "fa-solid fa-cubes-stacked",
+			"title": "Lead Full-Stack Developer",
+			"employer": "YHP",
+			"url": "https://yhp.co",
+			"url2": "https://www.yhp-wonderlab.com",
+			"description": "In this role, I implemented agile methodologies to accelerate project delivery, mentored junior developers, and conducted thorough code reviews to ensure best practices were followed. I fostered a collaborative and innovative environment, leading to the development of robust and versatile projects that significantly added value to the company. I was responsible for comprehensive staff performance reviews, full-cycle recruitment, and facilitating smooth employee transitions. A key achievement was leading the development of Wonderlab, a white-labeled event platform that reduced setup costs for new live events and allowed for extensive client customization. Additionally, I directed cross-functional teams in creating a gamified HR onboarding system, a versatile event platform supporting both online and in-person events, and an administrative hub application offering real-time analytics and user management features.",
+			"points": [
+				"Implemented agile methodologies to accelerate the delivery of high-quality software, enhancing project efficiency, fostering a culture of continuous improvement through regular sprint reviews and retrospectives, and enabling agile adaptation to evolving client requirements.",
+				"Mentored junior developers and conducted thorough code reviews, fostering skill development and ensuring adherence to best practices in software development and project management.",
+				"Created a collaborative and innovative environment, steering the team toward achieving ambitious goals, which resulted in robust and versatile projects that added significant value to the company.",
+				"Led comprehensive staff performance reviews, managed full-cycle recruitment, and facilitated smooth employee transitions, thereby maintaining team morale and continuity.",
+				"Developed and maintained various game websites using diverse technology stacks to enhance functionality and user experience, while also creating dynamic and responsive admin controllers. These contributions supported operational efficiency across multiple projects and teams within the organization.",
+				"Main Product Wonderlab: As the lead developer for Wonderlab, I spearheaded the white-labeling of the event platform, significantly reducing the setup costs for new live events. This strategic move allowed clients to customize the platform to their specific branding and event needs without incurring extensive development costs, making our solution both cost-effective and highly adaptable.",
+				{
+					"main": "I directed multiple cross-functional teams to develop a suite of gamified SaaS products, including:",
+					"points": [
+						"HR Onboarding System: Led the creation of an engaging and interactive HR onboarding system designed to streamline the employee induction process. This system incorporated gamified elements to enhance user engagement and retention, ensuring new hires had a memorable and effective onboarding experience.",
+						"Comprehensive Event Platform: Developed a versatile event platform supporting online and in-person events. Features included real-time chat, live streaming, and virtual networking rooms, allowing seamless transitions between virtual and physical event components, and catering to various event types and sizes.",
+						"Administrative Hub Application: Oversaw the development of an administrative hub that served as the control center for all event management activities. This application offered real-time analytics, user management, and content control features, empowering administrators to efficiently manage events and make data-driven decisions. The admin hub was designed with a user-friendly interface, ensuring even those with minimal technical expertise could navigate and utilize its full capabilities."
+					]
+				}
+			],
+			"roles": [
+				"Lead Full-Stack Developer",
+				"Frontend Developer",
+				"Backend Developer"
+			],
+			"skills": [
+				"Microsoft Azure",
+				"TypeScript",
+				"Express.js",
+				"React.js",
+				"GatsbyJS",
+				"PHP",
+				"Next.js",
+				"Docker Products",
+				"SASS",
+				"Redux.js",
+				"Leadership",
+				"Node.js",
+				"Git",
+				"JavaScript",
+				"Amazon Web Services (AWS)",
+				"Symfony Framework",
+				"Tailwind CSS"
+			]
+		},
+		{
+			"startDate": "Sun Dec 01 2019",
+			"endDate": "Sat May 01 2021",
+			"icon": "fa-solid fa-laptop",
+			"employer": "JSD",
+			"title": "Freelance",
+			"url": "https://JohnstonSoftwareDevelopment.com",
+			"description": "During this period, I created a Java Android application to replace an existing Cordova app for a shipping company, improving performance and reliability while seamlessly integrating with the existing backend. I developed a map component for the Tackle Hunger project, displaying food banks and their needs across North America. Additionally, I worked on the ongoing development of a professional portfolio for a skilled film craftsman and clock-smith using VueJS/NuxtJS and PHP. I also delivered tailored e-commerce websites, mobile apps, and custom software solutions, significantly enhancing clients' digital presence and operational capabilities.",
+			"roles": ["Frontend Developer", "Mobile Developer"],
+			"skills": [
+				"TypeScript",
+				"Express.js",
+				"Flutter",
+				"iOS",
+				"React.js",
+				"PHP",
+				"Next.js",
+				"Docker Products",
+				"SASS",
+				"Redux.js",
+				"Leadership",
+				"Vue.js",
+				"Node.js",
+				"Android",
+				"Nuxt.js",
+				"JavaScript",
+				"Amazon Web Services (AWS)",
+				"Git",
+				"Java"
+			],
+			"points": [
+				"Created a Java Android application to replace an existing Cordova app for a shipping company. This improved performance and reliability, seamlessly integrating with the existing backend to enhance operational efficiency.",
+				"Tackle Hunger: Developed a map component to display food banks and their needs across North America, providing a critical tool for resource allocation and community support.",
+				"Who's Jimmy: Ongoing development of a professional portfolio for a skilled film craftsman and clock-smith using VueJS/NuxtJS and PHP, effectively showcasing his work and enhancing his professional visibility.",
+				"Additional Projects: Delivered tailored e-commerce websites, mobile apps, and custom software solutions, significantly enhancing clients' digital presence and operational capabilities."
+			]
+		},
+		{
+			"startDate": "Sun Apr 01 2018",
+			"endDate": "Sun Sep 01 2019",
+			"employer": "E-data Now!",
+			"title": "Software Developer",
+			"url": "https://www.edatanow.com/",
+			"description": "I developed frontend and backend code for a near real-time data collection system for inspection and auditing in the automotive industry. I maintained test plans, wrote automated and load tests, enhanced dashboard functionality, and optimized slow API calls using Scout APM. Additionally, I resolved issues in iOS and Flutter codebases, improving performance and UX. My exceptional performance during a field placement led to a full-time employment offer.",
+			"roles": [
+				"Frontend Developer",
+				"Backend Developer",
+				"Mobile Developer"
+			],
+			"skills": [
+				"Flutter",
+				"iOS",
+				"SASS",
+				"Ruby on Rails",
+				"Vue.js",
+				"Android",
+				"Nuxt.js",
+				"JavaScript",
+				"Amazon Web Services (AWS)",
+				"Java",
+				"Git",
+				"PostgreSQL"
+			],
+			"points": [
+				"Developed frontend and backend code for a near real-time data collection system for inspection and auditing in the automotive industry.",
+				"Maintained test plans and test cases, wrote automated and load tests.",
+				"Enhanced dashboard functionality, added rearrangeable/drag and drop capabilities, and improved accessibility to meet Canadian standards.",
+				"Created Gatling scripts to simulate heavy real-world load, led performance improvement initiatives, and optimized slow API calls using Scout APM.",
+				"Resolved issues in iOS and Flutter codebases, improving performance and UX.",
+				"Secured a field placement, demonstrating exceptional performance that led to an offer for full-time employment."
+			]
+		},
+		{
+			"startDate": "Mon May 01 2017",
+			"endDate": "Mon Apr 01 2019",
+			"dates": "Dec 2019 - May 2021",
+			"employer": "Oiika",
+			"title": "Software Engineer",
+			"url": "https://Oiika.com",
+			"description": "I collaborated closely with a small team to design and develop an online platform using modern web technologies such as TypeScript, Express.js, and React.js. I played a key role in implementing responsive and dynamic user interfaces with ReactNative and Tailwind CSS, enhancing the platform's overall user experience. I optimized backend functionality using Node.js and Express.js, ensuring efficient data handling and API performance. My contributions included developing a flexible and maintainable codebase by leveraging SASS and Git for version control, as well as actively participating in the testing and debugging process to improve the platform's stability.",
+			"roles": ["Mobile Developer", "Frontend Developer"],
+			"skills": [
+				"TypeScript",
+				"Express.js",
+				"React.js",
+				"ReactNative",
+				"SASS",
+				"Git",
+				"Node.js",
+				"JavaScript",
+				"Tailwind CSS"
+			],
+			"points": [
+				"Collaborated closely with a small team to design and develop an online platform using modern web technologies such as TypeScript, Express.js, and React.js.",
+				"Played a key role in implementing responsive and dynamic user interfaces with ReactNative and Tailwind CSS, enhancing the platform's overall user experience.",
+				"Optimized backend functionality using Node.js and Express.js, ensuring efficient data handling and API performance.",
+				"Contributed to the development of a flexible and maintainable codebase by leveraging SASS and Git for version control, improving the team's workflow and code quality.",
+				"Actively participated in the testing and debugging process, helping to identify and resolve issues early, which improved the stability of the platform."
+			]
+		}
+	],
+	"volunteers": [
+		{
+			"startDate": "Sat Mar 01 2024",
+			"endDate": "",
+			"icon": "fa-solid fa-cubes-stacked",
+			"employer": "Virtual Coffee",
+			"title": "Event Leader",
+			"description": "Science and Technology",
+			"roles": [],
+			"skills": []
+		},
+		{
+			"startDate": "Sat Nov 01 2023",
+			"endDate": "",
+			"icon": "fa-solid fa-cubes-stacked",
+			"employer": "Virtual Coffee",
+			"title": "Room Leader",
+			"description": "Science and Technology",
+			"roles": [],
+			"skills": []
+		},
+		{
+			"startDate": "Sun Mar 01 2023",
+			"endDate": "",
+			"icon": "fa-solid fa-laptop",
+			"employer": "Virtual Coffee",
+			"title": "Community member",
+			"description": "Science and Technology",
+			"roles": [],
+			"skills": []
+		},
+		{
+			"startDate": "Sun Apr 01 2020",
+			"endDate": "Sun May 01 2020",
+			"employer": "Crown International",
+			"title": "Frontend Developer",
+			"description": "Science and Technology",
+			"shortDescription": "I volunteered at Crown International, where I developed the user profile page. This project involved creating an intuitive interface for managing user information and customizing profiles.",
+			"longDescription": "As a volunteer at Crown International, I took on the task of developing the user profile page. This project aimed to create a seamless and user-friendly interface for users to manage their personal information and customize their profiles. Using modern web development technologies, I focused on delivering a high-quality solution that enhanced the overall user experience. My responsibilities included designing the UI/UX, implementing frontend features using React, and ensuring the backend integration was smooth and efficient. This experience allowed me to contribute my skills to a meaningful project and further develop my expertise in web development.",
+			"roles": [],
+			"skills": []
+		},
+		{
+			"startDate": "Mon Mar 01 2020",
+			"endDate": "Mon Sep 01 2020",
+			"employer": "Mintbean",
+			"title": "Hackathon Lead",
+			"description": "Science and Technology",
+			"shortDescription": "I volunteered at Mintbean, where I organized and ran hackathons. My role involved coordinating events, mentoring participants, and fostering a collaborative environment for developers to innovate and learn.",
+			"longDescription": "As a volunteer at Mintbean, I played a key role in organizing and running hackathons. My responsibilities included coordinating event logistics, promoting the hackathons, and ensuring a smooth execution. During the events, I mentored participants, provided technical guidance, and facilitated workshops to help developers improve their skills. I also focused on creating an inclusive and collaborative atmosphere, encouraging innovation and learning among attendees. This experience allowed me to contribute to the developer community, enhance my leadership abilities, and stay updated with the latest technologies and trends in software development.",
+			"roles": [],
+			"skills": []
+		}
+	],
+	"roles": [
+		{
+			"icon": "fa-solid fa-cubes-stacked",
+			"title": "Lead Full-Stack Developer"
+		},
+		{
+			"icon": "fa-solid fa-laptop",
+			"title": "Frontend Developer"
+		},
+		{
+			"icon": "fa-solid fa-code",
+			"title": "Backend Developer"
+		},
+		{
+			"icon": "fa-solid fa-mobile-screen",
+			"title": "Mobile Developer"
+		}
+	],
+	"testimonials": [
+		{
+			"name": "Jérémy Ferland",
+			"title": "CTO",
+			"company": "YHP",
+			"quote": "To whom it may concern, Kindly note that Derek Johnston is recommended as a good candidate for future employment. Derek was employed at the company from May 25th, 2021, to September 15th, 2023. He worked as a Lead, Full Stack Developer and was responsible for participating in the development of multiple successful projects, in which he oversaw both front-end and back-end development teams. He also brought is expertise to lead the product technical decision. Derek was autonomous in his work and always willing to help both his direct team members and co-workers, as well as other departments. His rapport with his direct reports was particularly strong, and he excels at creating and maintaining strong internal relationships and supporting his team. We can recommend Derek for future employment, as he demonstrates strong technical skills and can be an asset to any company.",
+			"quoteShort": "To whom it may concern, ... Derek Johnston is recommended as a good candidate for future employment. Derek was employed at the company from May 25th, 2021, to September 15th, 2023. He worked as a Lead, Full Stack Developer ... oversaw both front-end and back-end development teams. ... Derek was autonomous in his work and always willing to help ... His rapport with his direct reports was particularly strong, and he excels at creating and maintaining strong internal relationships ... We can recommend Derek for future employment, as he demonstrates strong technical skills and can be an asset to any company.",
+			"quoteShortShort": "Derek Johnston is recommended as a good candidate for future employment. ... He worked as a Lead, Full Stack Developer ... oversaw both front-end and back-end development teams. Derek was autonomous ... and always willing to help ... He excels at creating and maintaining strong internal relationships ... We can recommend Derek for future employment, as he demonstrates strong technical skills ...",
+			"linkedin": "https://www.linkedin.com/in/jeremy-ferland/"
+		},
+		{
+			"name": "Kyle Chapman",
+			"title": "Full-Time Faculty",
+			"company": "Durham College",
+			"quote": "I taught Derek in 2 (sort of 3) courses in Durham College's Computer Programmer Analyst program in 2017-2018. In my time working with Derek, he contributed meaningfully to a database project related to an autoshow and created a capstone project making a customizable communication board intended for youths on the autism spectrum. Derek's biggest strengths are probably his work ethic and time management; I specifically recall how when seeking work placements, Derek approached every single booth at a campus career event and came away with a number of possible placements when other students didn't; Derek knows how to take advantage of opportunities like this, and how to approach and relate to people. Derek is a strong communicator; great not just as a programmer but for working to meet clients' needs. Derek has also made himself available to speak to some of my current students about his experiences and mentoring some with regards to both web development and mobile development, with an emphasis on accessibility.",
+			"quoteShort": "I taught Derek ... in Durham College's Computer Programmer Analyst program in 2017-2018. ... he contributed meaningfully to a database project ... and created a capstone project making a customizable communication board intended for youths on the autism spectrum. Derek's biggest strengths are ... his work ethic and time management; ... Derek knows how to take advantage of opportunities ... and how to approach and relate to people. Derek is a strong communicator; great not just as a programmer but for working to meet clients' needs. Derek has also made himself available to speak to ... my current students about his experiences and mentoring ... with regards to both web development and mobile development, with an emphasis on accessibility.",
+			"quoteShortShort": "I taught Derek ... in Durham College's Computer Programmer Analyst program ... Derek's biggest strengths are ... his work ethic and time management ... Derek knows how to take advantage of opportunities ... and how to approach and relate to people. Derek is a strong communicator ... great ... for working to meet clients' needs.",
+			"linkedin": "https://www.linkedin.com/in/kyledchapman/"
+		},
+		{
+			"name": "Lee Kichko",
+			"title": "CTO",
+			"company": "E-Data Now! (Phoenix Quality)",
+			"quote": "Derek was a pivotal member of our team at E-Data Now!, where his work on a near real-time data collection system for the automotive industry showcased his technical expertise and attention to detail. Utilizing Ruby on Rails, VueJS, and Flutter, Derek not only enhanced functionality but also significantly improved system performance and accessibility. His proactive problem-solving and dedication to continuous improvement were invaluable assets. At YHP, Derek took on the role of Lead Full-stack Developer, where he drove the development of innovative solutions like the Wonderlab event platform and a gamified HR onboarding system. His deep knowledge of technologies such as NextJS, ReactJS, and Docker, combined with his leadership in agile methodologies, enabled him to lead teams in delivering high-quality, user-centric products. Derek's ability to mentor junior developers and foster a collaborative environment further underscored his value as a leader and skilled developer.",
+			"quoteShort": "Derek was a pivotal member of our team at E-Data Now!, where his work on a near real-time data collection system for the automotive industry showcased his technical expertise and attention to detail. ... Derek not only enhanced functionality but also significantly improved system performance and accessibility. His proactive problem-solving and dedication to continuous improvement were invaluable assets. At YHP, Derek took on the role of Lead Full-stack Developer, where he drove the development of innovative solutions like the Wonderlab event platform and a gamified HR onboarding system. ... Derek's ability to mentor junior developers and foster a collaborative environment further underscored his value as a leader and skilled developer.",
+			"quoteShortShort": "Derek was a pivotal member of our team at E-Data Now! ... his work ... showcased his technical expertise and attention to detail. ... His proactive problem-solving and dedication to continuous improvement were invaluable assets. At YHP, Derek took on the role of Lead Full-stack Developer ... Derek's ability to mentor junior developers and foster a collaborative environment ... underscored his value as a leader and skilled developer.",
+			"linkedin": "https://www.linkedin.com/in/lee-kichko-a42b19178/"
+		}
+	],
+	"projects": [
+		{
+			"id": "1",
+			"project": "Who's Jimmy",
+			"company": "Johnston Software Development",
+			"type": "Portfolio Website",
+			"description": "Professional portfolio for a skilled film craftsman and clock-smith using VueJS/NuxtJS and PHP, showcasing his work and enhancing his professional visibility. Ongoing project with plans to add teaching videos highlighting James Gawley's extensive film industry experience.",
+			"tech": ["Vue.js", "Nuxt.js", "PHP", "SASS"],
+			"jsd": true,
+			"url": "https://whosjimmy.com"
+		},
+		{
+			"id": "2",
+			"project": "Tackle Hunger",
+			"company": "Johnston Software Development",
+			"type": "Web Application",
+			"description": "Map component displaying food banks and their needs across North America, providing a critical tool for resource allocation and community support.",
+			"tech": ["React.js", "Node.js", "Google Maps API", "Express.js"],
+			"jsd": true,
+			"url": null
+		}
+	]
+}

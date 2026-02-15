@@ -1,0 +1,1 @@
+import{M as a,c as s}from"./B-e3kWyF.js";import{d as o,t as r,v as n,z as e,K as t}from"./JQK-uaVK.js";const p=o({__name:"demo",setup(m){return(c,d)=>(n(),r("div",null,[e(t(a),{"data-url":"/data/dummy-git-stats.json","color-scheme":"green"}),e(t(s),{"data-url":"/data/dummy-git-stats.json"})]))}});export{p as default};
