@@ -1,0 +1,1 @@
+import{E as e,S as t,T as n,W as r,j as i}from"#entry";import{n as a,t as o}from"./CXx6Ij0-.js";var s=e({__name:`demo`,setup(e){return(e,s)=>(i(),t(`div`,null,[n(r(o),{"data-url":`/data/dummy-git-stats.json`,"color-scheme":`green`}),n(r(a),{"data-url":`/data/dummy-git-stats.json`})]))}});export{s as default};
